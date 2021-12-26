@@ -1,0 +1,25 @@
+.contest{
+    padding-top: 70px;
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .contest-left, .contest-right{
+        text-align: center;
+        align-items: center;
+        p{
+            width: 350px;
+            font-size: 20px;
+            color: grey;
+            word-spacing: 2px;
+        }
+        li{
+            padding-bottom: 15px;
+        }
+        img{
+            padding-bottom: 5px;
+        }
+    }
+}

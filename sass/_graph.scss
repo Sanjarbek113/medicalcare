@@ -1,0 +1,41 @@
+.graph{
+    padding-top: 150px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    li{
+        padding-bottom: 15px;
+    }
+    h2{
+        color: darkslategrey;
+        font-size: 25px;
+    }
+    p{
+        color: gray;
+        width: 330px;
+        font-size: 15px;
+        word-spacing: 2px;
+        line-height: 22px;
+    }
+    img{
+        width: 20%;
+    }
+    .graph-left{
+        padding-left: 50px;
+    }
+    .graph-center, .graph-right{
+        p{
+            width: 50%;
+        }
+    }
+    .graph-middle{
+        display: flex;
+        align-items: center;
+    }
+    a{
+        color: darkturquoise;
+    }
+    
+}

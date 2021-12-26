@@ -1,0 +1,42 @@
+.section{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .section-right{
+          position: absolute;
+          left: 50%;
+          p{
+              width: 50%;
+          }
+    }
+    img{
+        width: 90%;
+    }
+    li{
+        padding-bottom: 20px;
+    }
+    h2{
+        font-size: 30px;
+        color: darkslategrey;
+        letter-spacing: 2px;
+    }
+    p{
+        width: 60%;
+        color: gray;
+        line-height: 30px;
+        font-size: 20px;
+        word-spacing: 2px;
+
+    }
+    a{
+        color: darkturquoise;
+        font-size: 20px;
+    }
+    .section-img{
+        width: 10%;
+    }
+
+}

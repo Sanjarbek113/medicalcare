@@ -1,0 +1,19 @@
+.footer{
+    background: lightblue;
+    padding-top: 50px;
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    li{
+        padding-bottom: 8px;
+    }
+    a{
+        color: darkred;
+    }
+    h2{
+        font-size: 18px;
+        color: darkslategrey;
+    }
+}

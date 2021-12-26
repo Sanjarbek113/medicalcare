@@ -1,0 +1,45 @@
+.box{
+    background: #FFF5F0;
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        p{
+            color: darkturquoise;
+            font-size: 20px;
+        }
+        h2{
+            font-size: 50px;
+            letter-spacing: 2px;
+            color: #252B42;
+            width: 80%;
+        }
+        h4{
+            color: grey;
+            font-size: 20px;
+        }
+        .header-btn{
+            background-color: darkturquoise;
+            color: white;
+            border: none;
+            
+        }
+          button{
+              width: 100px;
+              height: 30px;
+              border: 2px solid darkturquoise;
+              border-radius: 10px;
+              color: darkturquoise;
+              font-size: 15px;
+          }
+          li{
+              padding-top: 30px;
+              padding-left: 20px;
+          }
+    }
+    img{
+        width: 80%;
+    }
+
+
+}
