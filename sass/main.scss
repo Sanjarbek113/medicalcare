@@ -235,7 +235,7 @@
     .container{
         width: 400px;
     }
-
+     
    .section{
        img{
            display: none;
@@ -244,6 +244,13 @@
            display: none;
        }
    }
+   .box-left{
+      // display: none;   
+      text-align: left;
+      align-items: left;
+      position: absolute;
+      
+}
 
    .contest .container{
        display: flex;

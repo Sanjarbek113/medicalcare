@@ -649,6 +649,13 @@
   .section .section-right {
     display: none;
   }
+  .box-left {
+    text-align: left;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    position: absolute;
+  }
   .contest .container {
     display: -webkit-box;
     display: -ms-flexbox;
